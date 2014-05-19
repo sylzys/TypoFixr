@@ -114,7 +114,7 @@ You can define your own list of typos. Just use the "replacements" settings, wit
 { "replacements": {
 		"wnidow : "window",
 		[...]
-		"dcoument: "document"
+		"ddocument: "document"
 	}
 }
 ```
