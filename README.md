@@ -112,9 +112,9 @@ You can define your own list of typos. Just use the "replacements" settings, wit
 
 ``` js
 { "replacements": {
-		"wnidow : "window",
+		"wnidow" : "window",
 		[...]
-		"ddocument: "document"
+		"dcoument": "document"
 	}
 }
 ```
