@@ -24,18 +24,18 @@ Intro
 Are you tired of seeing :
 
 ``` js
-wnidow is not defined
+window is not defined
 ```
 
 or
 
 ``` js
-dsiplay is not defined
+display is not defined
 ```
 
 while coding Javascript ?
 
-TypoFixr gets you covered. Define your own list of possible typos, and correct them on-save of manually.
+TypoFixr gets you covered. Define your own list of possible typos, and correct them on-save or manually.
 
 Installation
 ------------
@@ -77,7 +77,7 @@ Usage
 To add a key binding, open "Preferences / Key Bindings - User" and add:
 
 ``` js
-{ "keys": ["ctrl+shift+c"], "command": "typofixr" }
+{ "keys": ["ctrl+shift+c"], "cwindow": "typofixr" }
 ```
 
 With this setting, pressing <kbd>Ctrl + Shift + c</kbd> will list the typos you defined (see [settings] (#settings)) and correct them with the corresponding word of your choise throughout the current file! For OSX users, quoting wbond:
@@ -100,7 +100,7 @@ file: Go to "Preferences / Package Settings / TypoFixr / Settings
 
 *Default: "true"*
 
-You may turn auto correction on file save ON / OFF. The auto correct doesn't takes place while in the settings file, to prevent correction of the typos you just defined.
+You may turn auto correction on file save ON / OFF. The auto correct doesn't take place while in the settings file, to prevent correction of the typos you just defined.
 
 ``` js
 { "execute_on_save": true, }
@@ -108,14 +108,13 @@ You may turn auto correction on file save ON / OFF. The auto correct doesn't tak
 
 ### Defining your own typo list
 
-You can make trailing spaces "invisible" yet still rely on the deletion
-command. To do that, set the highlight scope to an empty string:
+You can define your own list of typos. Just use the "replacements" settings, with the typo on the left side, and the corresponding correction on the right side.
 
 ``` js
 { "replacements": {
-		"wnidow" : "window",
+		"wnidow : "window",
 		[...]
-		"dcoument": "document"
+		"dcoument: "document"
 	}
 }
 ```
