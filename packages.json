@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "packages": [
+    {
+      "name": "TypoFixr",
+      "description": "Determine a list of possible typos and correct them automatically",
+      "author": "Sylvain Zyssman",
+      "homepage": "https://github.com/sylzys",
+      "last_modified": "2014-05-18 23:14:21",
+      "platforms": {
+        "*": [
+          {
+            "version": "1.0.0",
+            "url": "https://nodeload.github.com/sylzys/TypoFixr/zip/v1.0.0"
+          }
+        ]
+      }
+    }
+  ]
+}

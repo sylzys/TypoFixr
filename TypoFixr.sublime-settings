@@ -1,0 +1,10 @@
+{
+	"execute_on_save": true,
+	"replacements": {
+		"wnidow" : "window",
+		"dsiplay": "display",
+		"dispaly": "display",
+		"dcoument": "document"
+	}
+
+}
