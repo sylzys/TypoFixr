@@ -24,13 +24,13 @@ Intro
 Are you tired of seeing :
 
 ``` js
-window is not defined
+wnidow is not defined
 ```
 
 or
 
 ``` js
-display is not defined
+dispaly is not defined
 ```
 
 while coding Javascript ?
@@ -43,7 +43,7 @@ Installation
 It is available through
 [Sublime Package Contol](http://wbond.net/sublime_packages/package_control) and
 this is the recommended way of installation.
-Just open Packaope Control and look for TypoFirx
+Just open Package Control and look for TypoFirx
 
 ### Alternative installation methods
 
