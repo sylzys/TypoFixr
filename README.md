@@ -24,13 +24,13 @@ Intro
 Are you tired of seeing :
 
 ``` js
-window is not defined
+wnidow is not defined
 ```
 
 or
 
 ``` js
-display is not defined
+dispaly is not defined
 ```
 
 while coding Javascript ?
